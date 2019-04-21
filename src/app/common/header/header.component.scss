@@ -1,0 +1,37 @@
+@import "variables";
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+  .bwm-search {
+    height: 50px;
+    width: 300px;
+    color: $main-color;
+    border-color: $main-color;
+    &:focus {
+      border-color: $main-color;
+      box-shadow: 0 0 0 3px rgba(2, 50, 69, 0.2);
+    }
+  }
+  .navbar-brand {
+    margin-right: 30px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: $main-color;
+    font-weight: 500;
+  }
+  .nav-item {
+    font-size: 14px;
+  }
+  .btn-bwm-search {
+    border: 1px solid #023245;
+    color: $main-color;
+    &:hover, &:focus {
+      background-color: $main-color;
+      border: 1px solid $main-color !important;
+      color: #fff !important;
+      font-weight: 400;
+      box-shadow: none;
+    }
+  }
+}
